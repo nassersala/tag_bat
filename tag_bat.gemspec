@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'tag_bat'
-  s.version     = '0.0.3'
+  s.version     = '0.1.0'
   s.authors     = ['Nasser Al Zahrani']
   s.email       = ['nassersala@gmail.com']
   s.homepage    =  'https://github.com/nassersala/tag_bat'
