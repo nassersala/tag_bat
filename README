@@ -1,0 +1,21 @@
+Polymorphically adds tags to ActiveRecord models:
+
+Usage:
+class Photo < ActiveRecord::Base
+  has_many_tags
+end
+
+now, photo is taggable as follows:
+photo = Photo.create
+photo.tag_names << "landscape"
+photo.tag_names << "2013 trip"
+
+installation:
+add the following to Gemfile:
+gem 'tag_bat'
+
+then, from the command line run:
+$ bundle install
+$ rake tab_bat:install:migrations
+$ rake db:migrate
+
